@@ -1,0 +1,34 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Resource",
+"class": "Action",
+"language": "GDScript",
+"path": "res://Actions.gd"
+}, {
+"base": "Resource",
+"class": "Skill",
+"language": "GDScript",
+"path": "res://Resource Scripts/Skills.gd"
+} ]
+_global_script_class_icons={
+"Action": "",
+"Skill": "res://icons/deepcut.svg"
+}
+
+[application]
+
+config/name="Tales From Off-Peak City RPG - Godot"
+config/icon="res://Tales_From_Off_Peak_City_2.jpg"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

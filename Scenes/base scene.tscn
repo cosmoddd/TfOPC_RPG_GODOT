@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://doIt.gd" type="Script" id=1]
+[ext_resource path="res://Actions/Punch.tres.res" type="Resource" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://Actions.gd" type="Script" id=4]
+[ext_resource path="res://Skills/awareness.tres" type="Resource" id=5]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+action = ExtResource( 2 )
+scoobyDoo = NodePath("SpriteZoinks")
+
+[node name="SpriteZoinks" type="Sprite" parent="."]
+position = Vector2( 121.559, 122.814 )
+scale = Vector2( 0.207443, 0.207443 )
+texture = ExtResource( 3 )
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="NoodlesB" type="Node" parent="."]
+script = ExtResource( 4 )
+skills = [ ExtResource( 5 ), null, null ]
