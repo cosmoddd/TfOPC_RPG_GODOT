@@ -12,12 +12,12 @@ _global_script_classes=[ {
 "base": "Resource",
 "class": "Action",
 "language": "GDScript",
-"path": "res://Actions.gd"
+"path": "res://Resource Scripts/ActionRES.gd"
 }, {
 "base": "Resource",
 "class": "Skill",
 "language": "GDScript",
-"path": "res://Resource Scripts/Skills.gd"
+"path": "res://Resource Scripts/SkillRES.gd"
 } ]
 _global_script_class_icons={
 "Action": "",
@@ -27,7 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Tales From Off-Peak City RPG - Godot"
-config/icon="res://Tales_From_Off_Peak_City_2.jpg"
+config/icon="res://icons/Tales_From_Off_Peak_City_2.jpg"
 
 [rendering]
 

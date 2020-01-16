@@ -10,4 +10,4 @@ export(int) var index
 
 func _ready():
 	print(baseSkill.name)
-	pass 
+	pass

@@ -1,6 +1,7 @@
 extends Node
 
 export(Resource) var action
+export(Resource) var skill
 export(NodePath) var scoobyDoo
 # Called when the node enters the scene tree for the first time.
 func _ready():

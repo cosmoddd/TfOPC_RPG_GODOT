@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Tales_From_Off_Peak_City_2.jpg-7df61ba28f70d0d1a08c5cddd8babbfc.stex"
+path="res://.import/intimidate.png-f3e707be064400458b996f69dc40b676.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tales_From_Off_Peak_City_2.jpg"
-dest_files=[ "res://.import/Tales_From_Off_Peak_City_2.jpg-7df61ba28f70d0d1a08c5cddd8babbfc.stex" ]
+source_file="res://icons/intimidate.png"
+dest_files=[ "res://.import/intimidate.png-f3e707be064400458b996f69dc40b676.stex" ]
 
 [params]
 
