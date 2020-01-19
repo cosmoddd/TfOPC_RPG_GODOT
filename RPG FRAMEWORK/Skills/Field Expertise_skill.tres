@@ -1,9 +1,9 @@
 [gd_resource type="Resource" load_steps=3 format=2]
 
 [ext_resource path="res://RPG FRAMEWORK/_Resource Scripts/SkillRE.gd" type="Script" id=1]
-[ext_resource path="res://icons/awareness.png" type="Texture" id=2]
+[ext_resource path="res://icons/field expertise.png" type="Texture" id=2]
 
 [resource]
 script = ExtResource( 1 )
-skillName = "Awareness"
+skillName = "Field Expertise"
 skillIcon = ExtResource( 2 )

@@ -1,9 +1,11 @@
-[gd_resource type="Resource" load_steps=7 format=2]
+[gd_resource type="Resource" load_steps=10 format=2]
 
 [ext_resource path="res://RPG FRAMEWORK/_Resource Scripts/ItemRE.gd" type="Script" id=1]
 [ext_resource path="res://RPG FRAMEWORK/_Resource Scripts/SkillAffectedRE.gd" type="Script" id=2]
 [ext_resource path="res://RPG FRAMEWORK/Situational Rules/Cutting Edge.tres" type="Resource" id=3]
 [ext_resource path="res://RPG FRAMEWORK/Skills/Awareness_skill.tres" type="Resource" id=4]
+[ext_resource path="res://RPG FRAMEWORK/_Resource Scripts/SituationalRuleRE.gd" type="Script" id=5]
+[ext_resource path="res://RPG FRAMEWORK/Skills/Resourcefulness_skill.tres" type="Resource" id=6]
 
 [sub_resource type="Resource" id=1]
 script = ExtResource( 2 )
@@ -12,12 +14,22 @@ skillModifier = 0
 situationalRules = [ ExtResource( 3 ) ]
 
 [sub_resource type="Resource" id=2]
+script = ExtResource( 5 )
+source = 0
+stat = 0
+comparison = 0
+comparisonTarget = 0
+operator = 0
+modifier = 0
+
+[sub_resource type="Resource" id=3]
 script = ExtResource( 2 )
-skillModifier = 0
-situationalRules = [  ]
+skill = ExtResource( 6 )
+skillModifier = -2
+situationalRules = [ SubResource( 2 ) ]
 
 [resource]
 script = ExtResource( 1 )
 passiveActive = 0
 description = "My pal foot fooooot..."
-skillsAffected = [ SubResource( 1 ), SubResource( 2 ) ]
+skillsAffected = [ SubResource( 1 ), SubResource( 3 ) ]
