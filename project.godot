@@ -10,24 +10,36 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Resource",
+"class": "EnumsCMD",
+"language": "GDScript",
+"path": "res://RPG FRAMEWORK/_Resource Scripts/EnumsCMD.gd"
+}, {
+"base": "Resource",
 "class": "ItemRE",
 "language": "GDScript",
-"path": "res://Resource Scripts/ItemRE.gd"
+"path": "res://RPG FRAMEWORK/_Resource Scripts/ItemRE.gd"
+}, {
+"base": "Resource",
+"class": "SituationalRule",
+"language": "GDScript",
+"path": "res://RPG FRAMEWORK/_Resource Scripts/SituationalRuleRE.gd"
 }, {
 "base": "Resource",
 "class": "Skill",
 "language": "GDScript",
-"path": "res://Resource Scripts/SkillRE.gd"
+"path": "res://RPG FRAMEWORK/_Resource Scripts/SkillRE.gd"
 }, {
 "base": "Resource",
-"class": "SkillEffected",
+"class": "Skill_Effected",
 "language": "GDScript",
-"path": "res://Resource Scripts/SkillAffectedRE.gd"
+"path": "res://RPG FRAMEWORK/_Resource Scripts/SkillAffectedRE.gd"
 } ]
 _global_script_class_icons={
+"EnumsCMD": "",
 "ItemRE": "",
+"SituationalRule": "",
 "Skill": "res://icons/deepcut.svg",
-"SkillEffected": ""
+"Skill_Effected": ""
 }
 
 [application]
