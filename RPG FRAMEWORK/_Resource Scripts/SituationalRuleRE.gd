@@ -16,5 +16,5 @@ export (int) var comparisonTarget
 export (Operator) var operator
 export (int) var modifier;
 
-    #public UnityEvent outcomeEvent;
+	#public UnityEvent outcomeEvent;
 

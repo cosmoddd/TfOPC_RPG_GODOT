@@ -9,4 +9,5 @@ script = ExtResource( 1 )
 action = ExtResource( 2 )
 funky = ExtResource( 3 )
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="Zorko" type="Node2D" parent="."]
+[connection signal="ready" from="Zorko" to="." method="_on_Node2D_ready"]
