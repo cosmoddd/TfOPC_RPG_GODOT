@@ -6,4 +6,5 @@
 [resource]
 script = ExtResource( 1 )
 skillName = "Empathy"
+description = ""
 skillIcon = ExtResource( 2 )

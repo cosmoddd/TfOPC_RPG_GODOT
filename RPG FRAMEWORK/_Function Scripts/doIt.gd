@@ -9,9 +9,10 @@ export(Resource) var results
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	print_debug(funky.description)
-	print_debug(funky.skillsAffected[0].skill.skillName)
-	results.emit_signal("onFunky")
+	print(action.governingSkill.description)
+#	print_debug(funky.skillsAffected[0].skill.skillName)
+#	results.emit_signal("onFunky")
+#	print(action.name)
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

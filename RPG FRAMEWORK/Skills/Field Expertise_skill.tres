@@ -6,4 +6,5 @@
 [resource]
 script = ExtResource( 1 )
 skillName = "Field Expertise"
+description = "Is this what happens when you don't feed the llamas?"
 skillIcon = ExtResource( 2 )

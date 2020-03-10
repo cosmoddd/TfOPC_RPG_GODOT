@@ -45,6 +45,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Tales From Off-Peak City RPG - Godot"
+run/main_scene="res://Scenes/base scene.tscn"
 config/icon="res://icons/Tales_From_Off_Peak_City_2.jpg"
 
 [rendering]
